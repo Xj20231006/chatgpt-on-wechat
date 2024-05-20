@@ -6,9 +6,10 @@ services:
     security_opt:
       - seccomp:unconfined
     environment:
-      OPEN_AI_API_KEY: 'YOUR API KEY'
+      OPEN_AI_API_KEY: 'sk-yYusoYVaBFImoLMqjYRQEBbG6q0l945keEro0voiQqMsuMLv'
       MODEL: 'gpt-3.5-turbo'
       PROXY: ''
+      open ai api base:"https://api.chatanywhere.tech"
       SINGLE_CHAT_PREFIX: '["bot", "@bot"]'
       SINGLE_CHAT_REPLY_PREFIX: '"[bot] "'
       GROUP_CHAT_PREFIX: '["@bot"]'
